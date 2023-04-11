@@ -59,6 +59,7 @@
             <a class="navbar-brand py-0" href="dashboard.html">
               <img src="assets/images/cst-info-gain-wh.png">
             </a>
+            <img class="lsm" src="assets/images/cst-info-gain-wh-sm.png" style="height: 40px;">
             <a href="#" class="sm-toggle btn btn-outline-light">
               <i class="fa-solid fa-bars-staggered"></i>
             </a>
@@ -184,7 +185,7 @@
                   <a class="nav-link dropdown-toggle p-color" href="#" role="button" data-bs-toggle="dropdown">
                     <i class="fa-solid fa-building-user p-color"></i> MicroAdmin
                   </a>
-                  <ul class="dropdown-menu dropdown-menu-end">
+                  <ul class="dropdown-menu dropdown-menu-end float-start">
                     <li class="text-center">
                       <div class="user-details">
                         <div>
@@ -548,7 +549,7 @@
     </div>
   </div>
 </div>
-<div class="alert alert-success" role="alert" style="position: fixed;top: 50px;left: 30%;width: 40%;z-index: 1052;">
+<div class="alert alert-success alert-pos" role="alert">
   <button type="button" class="close float-end btn btn-link p-0" style="text-decoration: none;" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
   <strong>Load successfully!</strong> 
 </div>
@@ -919,7 +920,7 @@ window.setTimeout(function() {
     $(".alert").fadeTo(500, 0).slideUp(500, function(){
         $(this).remove(); 
     });
-}, 1000);
+}, 2000);
 </script>
 <script type="text/javascript">
   $(document).ready(function () {
