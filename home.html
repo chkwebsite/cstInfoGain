@@ -942,7 +942,6 @@
 <a href="#" id="scroll" style="display: none;"><span></span></a>
 <!-- FOOTER END  -->
 </div>
-</body>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
@@ -1453,4 +1452,43 @@ $('.carousel-how-work').slick({
     });
   });
 </script>
+<script type="text/javascript">
+      
+  $(document).ready(function() {
+      $(window).on("contextmenu",function(e){
+         return false;
+      }); 
+  }); 
+   document.onkeydown = function (e) {
+      e = e || window.event;//Get event
+      if (e.ctrlKey) {
+          var c = e.which || e.keyCode;//Get key code
+          switch (c) {
+              case 83://Block Ctrl+S
+              case 87://Block Ctrl+W --Not work in Chrome
+              case 73://Block Ctrl+I
+              case 67: //Block Ctrl+C
+                  e.preventDefault();     
+                  e.stopPropagation();
+              break;
+          }
+      }
+  };
+  
+        document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+  return false;
+  }
+  }
+      </script>
+</body>
 </html>
