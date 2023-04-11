@@ -1,0 +1,22 @@
+:root{
+    --scroll-bg-light-1
+    --scroll-bg-dark-2
+    --top-header-bg-light-1
+    --top-header-bg-dark-2
+    --top-header-text-color
+    --top-header-text-color-hover
+    --top-header-icon-color
+    --top-header-icon-color-hover
+    --sidebar-nav-bg-1
+    --sidebar-nav-bg-2
+    --sidebar-nav-text-color
+    --sidebar-nav-text-color-hover
+    --sidebar-nav-icon-color
+    --sidebar-nav-icon-color-hover
+    --text-color-prim-1
+    --text-color-prim-2
+    --text-color-prim-3
+    --bg-color-prim-1
+    --bg-color-prim-2
+    --bg-color-prim-3
+}

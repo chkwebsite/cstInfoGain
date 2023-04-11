@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/sites_mainstyle.css">
+    <link rel="stylesheet" href="assets/css/theme-color/color.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/boxicons@2.0.3/css/boxicons.min.css">
+    <title>Document</title>
+    <style>
+       body.login-body-bg .tab-pane.active {
+    background-color: transparent !important;
+}
+    </style>
+</head>
+
+<body class="login-body-bg">
+
+    <div class="container" style="height: 100vh;">
+        <div class="row h-100">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8 col-sm-12 offset-xxl-6 offset-xl-6 offset-lg-6 offset-md-4 offset-sm-0 align-self-center">
+                <div class="card-new text-center">
+                    <img src="assets/images/cst-info-gain-wh.png" style="height: 75px;">
+                    <!-- <hr> -->
+                    <!-- <h5 class="text-start1 mt-3">Login to AWS (MIS)</h5> -->
+                    <ul class="nav nav-tabs d-none d-lg-flex justify-content-end" id="myTab" role="tablist">
+                      
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link tab-styles active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Portal</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link tab-styles" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Website</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link tab-styles" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"> ! Notes</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content accordion border-bottom" id="myTabContent">
+                        <div class="tab-pane fade show active accordion-item border-0" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                      
+                          <h2 class="accordion-header d-lg-none" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Portal</button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show  d-lg-block" aria-labelledby="headingOne" data-bs-parent="#myTabContent">
+                            <div class="accordion-body py-3 px-0" style="min-height: 200px;">
+                                <form action="dashboard.html" class="was-validated">
+                                    <div class="form-floating mb-3 mt-3">
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required="">
+                                        <label for="email">Email</label>
+                                      </div>
+                                      
+                                      <div class="form-floating mt-3 mb-3">
+                                        <input type="password" class="form-control" minlength="6" maxlength="56" id="pwd" placeholder="Enter password" name="pswd" required="">
+                                        <label for="pwd">Password</label>
+                                      </div>
+                                      <div class="form-check mb-3">
+                                        <label class="form-check-label text-white">
+                                          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                                        </label>
+                                      </div>
+                                      <button type="submit" class="btn btn-primary rounded-5">Submit <svg class="svg-inline--fa fa-arrow-right-long" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right-long" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg><!-- <i class="fa-solid fa-arrow-right-long"></i> Font Awesome fontawesome.com --></button>
+                                      <!-- <a href="index.html" class="btn btn-primary rounded-5">Submit <i class="fa-solid fa-arrow-right-long"></i></a> -->
+                                    </form>
+                            </div>
+                          </div>
+                      
+                        </div>
+                        <div class="tab-pane fade accordion-item border-0" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                          <h2 class="accordion-header d-lg-none" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Website
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingTwo" data-bs-parent="#myTabContent">
+                            <div class="accordion-body py-3 px-0" style="min-height: 200px;">
+                                <form action="home.html" class="was-validated">
+                                    <div class="form-floating mb-3 mt-3">
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required="">
+                                        <label for="email">Email</label>
+                                      </div>
+                                      
+                                      <div class="form-floating mt-3 mb-3">
+                                        <input type="password" class="form-control" minlength="6" maxlength="56" id="pwd" placeholder="Enter password" name="pswd" required="">
+                                        <label for="pwd">Password</label>
+                                      </div>
+                                      <div class="form-check mb-3">
+                                        <label class="form-check-label text-white">
+                                          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                                        </label>
+                                      </div>
+                                      <button type="submit" class="btn btn-primary rounded-5">Submit <svg class="svg-inline--fa fa-arrow-right-long" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right-long" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg><!-- <i class="fa-solid fa-arrow-right-long"></i> Font Awesome fontawesome.com --></button>
+                                      <!-- <a href="index.html" class="btn btn-primary rounded-5">Submit <i class="fa-solid fa-arrow-right-long"></i></a> -->
+                                    </form>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade accordion-item border-0" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                          <h2 class="accordion-header d-lg-none" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              ! Notes
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse d-lg-block" aria-labelledby="headingThree" data-bs-parent="#myTabContent">
+                            <div class="accordion-body py-3 px-0 text-white" style="min-height: 275px;">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    </div>
+            </div>
+        </div>
+     
+    
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/all.min.js"></script>
+    <script type="text/javascript" src="assets/css/aos/aos.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('load', () => {
+            AOS.init({
+                duration: 1000,
+                easing: "ease-in-out",
+                once: true,
+                mirror: false
+            });
+        });
+    </script>
+</body>
+
+</html>
