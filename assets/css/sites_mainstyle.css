@@ -1450,3 +1450,8 @@ ul.advant{
   background-color: rgb(70 65 65 / 50%);
   border-radius: 2px 30px 2px 30px;
 }
+@media (max-width:520px){
+  .card-new {
+    padding: 30px 15px;
+  }
+}
