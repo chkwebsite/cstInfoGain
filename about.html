@@ -15,7 +15,7 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" type="text/css" href="https://unpkg.com/boxicons@2.0.3/css/boxicons.min.css">
 
-  <title>|| NEW THEME HOME ||</title>
+  <title>|| ABOUT US ||</title>
   <style>
        .drophere {
       float: left;
@@ -80,7 +80,10 @@
             <div class="collapse navbar-collapse" id="navbar-content">
               <ul class="navbar-nav mr-auto top_h mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="about.html">About us</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
@@ -180,9 +183,9 @@
                     </div>
                   </div>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
+                </li> -->
               </ul>
               <ul class="navbar-nav ms-auto ">
                 <li class="nav-item dropdown">
@@ -200,9 +203,9 @@
                         <hr class="m-2">
                         <!-- <button type="button" class="btn btn-primary float-start p-1">Profile</button> -->
                         <div class="btn-group" style="width: 95%;">
-                        <a href="index.html" class="btn btn-primary">
+                        <a href="login.html" class="btn btn-primary">
                           <i class="fa-solid fa-earth-oceania"></i> Protal</a>
-                        <a href="index.html" class="btn btn-success">
+                        <a href="login.html" class="btn btn-success">
                           <i class="fa-solid fa-globe"></i> Website</a>
                     </div>
                   </div>
@@ -381,27 +384,6 @@
   </div>
   <div class="content-warper" style="padding-top: 12px;padding-bottom: 12px;">
     <div class="container-fluid" style="margin-top: -12px;">
-      <div class="row">
-        <div class="col-sm-12 p-0" data-aos="fade-up">
-            <!-- Carousel -->
-            <div class="slick-slider js-slick">
-              <div class="photo is-animating" style="background-image: url('assets/images/slid-1.png');">
-              </div>
-            
-              <div class="photo" style="background-image: url('assets/images/slid-2.webp');">
-              </div>
-            
-              <div class="photo" style="background-image: url('assets/images/slid-3.webp');">
-              </div>
-            
-              <div class="photo" style="background-image: url('assets/images/slid-1.png');">
-              </div>
-              
-              
-              
-              </div>
-        </div>
-      </div>
       <section class="bg-1">
       <div class="row">
         <div class="col-sm-12" data-aos="fade-up">
@@ -1316,27 +1298,7 @@ window.setTimeout(function() {
  
 </script>
 <script type="text/javascript">
-  /*==============================================================*/
-		// Hero slider
-		/*==============================================================*/
 		$(document).ready(function () {
-  $('.js-slick').slick({
-    autoplay: true,
-    autoplaySpeed: 5000,
-    dots: false,
-    draggable: false,
-    fade: true,
-    speed: 3000
-  });
-  
-  $('.js-slick').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-    $(slick.$slides).removeClass('is-animating');
-  });
-  
-  $('.js-slick').on('afterChange', function(event, slick, currentSlide, nextSlide) {
-    $(slick.$slides.get(currentSlide)).addClass('is-animating');
-  });
-// ========================================== 
   $('.slider-for').slick({
    slidesToShow: 1,
    slidesToScroll: 1,
@@ -1452,7 +1414,7 @@ $('.carousel-how-work').slick({
     });
   });
 </script>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
       
   $(document).ready(function() {
       $(window).on("contextmenu",function(e){
@@ -1489,6 +1451,6 @@ $('.carousel-how-work').slick({
   return false;
   }
   }
-      </script>
+      </script> -->
 </body>
 </html>

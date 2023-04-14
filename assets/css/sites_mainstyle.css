@@ -1,3 +1,54 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../webfonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../webfonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-Italic;
+  src: url(../webfonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-LightItalic;
+  src: url(../webfonts/Roboto-LightItalic.ttf);
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../webfonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../webfonts/Roboto-Bold.ttf);
+}
+
+.roboto-regular{
+  font-family: Roboto-Regular !important;
+}
+.roboto-light{
+  font-family: Roboto-Light !important;
+}
+.roboto-italic{
+  font-family: Roboto-Italic !important;
+}
+.roboto-lightItalic{
+  font-family: Roboto-LightItalic !important;
+}
+.roboto-medium{
+  font-family: Roboto-Medium !important;
+}
+.roboto-bold{
+  font-family: Roboto-Bold !important;
+}
+html{
+  font-family:Roboto-Light;
+}
+body{
+  font-family:Roboto-Light;
+  font-size: var(--bs-body-font-size) !important;
+}
+
 /* scrollbar */
 ::-webkit-scrollbar {
   width: 5px;
